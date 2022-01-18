@@ -1,0 +1,41 @@
+html, body {
+  background-color: black;
+  height: 100%;
+  width: 100%;
+  max-width: 100%;
+  max-height: 100%;
+  overflow: hidden
+}
+
+.form1 {
+    display: inline-flex;
+    text-align: left;
+}
+
+#main_terminal {
+    height: 100%;
+    width: 100%;
+}
+
+.name_label {
+    color: #0F0;
+    font-size: small;
+    padding-right: 10px;
+    white-space: nowrap;
+}
+
+.log_text {
+    color: #0F0;
+    font-size: small;
+    margin-left: 1px;
+}
+
+input {
+    background-color: black;
+    outline: none;
+    border: none;
+    color: #0F0;
+    width: 100%;
+    max-width: 100%;
+    font-size: small;
+}
