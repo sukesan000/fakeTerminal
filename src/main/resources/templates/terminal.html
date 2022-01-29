@@ -9,10 +9,15 @@
 </head>
 <body>
     <div id="main_terminal">
-        <form id="form1" class="form1">
-            <span class="name_label">root: fakeOS-36K4J</span>
-            <input type="text" name="inputText" id="inputText" required/>
+        <div id="log_space"></div>
+        <form class="form1">
+            <span class="main_font message_label" th:text="${startMessage}"></span>
+            <input type="text" name="startText" class="main_font" id="startText" required/>
         </form>
+        <!--<form class="form1">
+            <span class="name_label main_font">root: fakeOS-36K4J</span>
+            <input type="text" name="inputText" class="main_font" id="inputText" required/>
+        </form>-->
     </div>
 </body>
 </html>

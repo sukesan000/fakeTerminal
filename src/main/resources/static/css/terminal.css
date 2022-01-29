@@ -7,6 +7,11 @@ html, body {
   overflow: hidden
 }
 
+.main_font {
+    color: #0F0;
+    font-size: small;
+}
+
 .form1 {
     display: inline-flex;
     text-align: left;
@@ -15,13 +20,18 @@ html, body {
 #main_terminal {
     height: 100%;
     width: 100%;
+    lex-direction: column;
 }
 
 .name_label {
-    color: #0F0;
-    font-size: small;
     padding-right: 10px;
     white-space: nowrap;
+}
+
+.message_label {
+    padding-right: 10px;
+    white-space: nowrap;
+
 }
 
 .log_text {
@@ -34,8 +44,6 @@ input {
     background-color: black;
     outline: none;
     border: none;
-    color: #0F0;
     width: 100%;
     max-width: 100%;
-    font-size: small;
 }
